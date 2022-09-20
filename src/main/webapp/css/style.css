@@ -1,0 +1,175 @@
+/* CSS stylesheet  for application */
+
+* {
+    font-family: 'Titillium Web', Times, serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid silver;
+    padding:15px;
+}
+
+th, td {
+    border: 1px solid silver;
+    padding:15px;
+}
+
+.navbar {
+    font-size: 17px;
+}
+
+.container-faq {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+#info-box-faq {
+    background-color: #afb8c7;
+    width: 450px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#box-around-bygningsreglement {
+    text-align: center;
+}
+
+.div-around-accordion {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.container-chosen-carport {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: auto;
+}
+
+#choose-carport-type-heading {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.container-frontpage {
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+/*Styling på carport dimensions siden*/
+#container-good-to-knows {
+    background-color: #afb8c7;
+    padding: 10px;
+    width: 470px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: auto;
+}
+
+.container-carportdesigner {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container-width-length-height {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-roofMaterial-roofAngle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-shed-chosen {
+    display: flex;
+    justify-content: center;
+}
+
+.container-shed-dimensions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container-drawing-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.dimensions-items {
+    margin: 10px;
+}
+
+/*styling på profilsiden*/
+.container-itemList-and-drawing-buttons-profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*stykliste styling*/
+.container-buttons-itemList {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-carport-dimensions-page {
+    background-color: #afb8c7;
+    padding: 10px;
+    width: 350px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: auto;
+}
+
+/*skitse side*/
+.container-buttons-drawing-page {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 475px) {
+    .dimensions-items {
+        margin: 3px;
+    }
+}
+
+/*lager side styling*/
+.container-buttons-stock-page {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+    .div-around-accordion {
+        width: 100%;
+    }
+    .container-faq {
+        justify-content: center;
+    }
+    #info-box-faq{
+        width: 100%;
+    }
+
+    #choose-carport-type-heading {
+        margin: 45px 0px;
+    }
+
+    #container-good-to-knows {
+        width: 400px;
+    }
+}
